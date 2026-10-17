@@ -10,6 +10,4 @@ A local installation of FreeBindCraft with PyRosetta was used for this campaign(
 
 -Miniprotein -Target chain: A -Hotspot Residues: A35,A36,A37,A64 -Min/Max Length: 65/150 aa -Number of Final Designs: 100 -Filter Settings: default_filters -Advanced Settings: default_4stage_multimer
 
-Due to an intermittent power outage, an additional run was needed after 70 designs had been generated to achieve 100 passing designs. For the supplementary job, the exact same specifications as the one above were used with the only difference being the number of final designs being set to 30.
-
 The final compiled output of 100 binders was then filtered by average ipTM and ipSAE scores, using a cutoff of average ipTM > 0.8 AND average ipSAE > 0.6. This produced a final list of 34 binders for submission.
